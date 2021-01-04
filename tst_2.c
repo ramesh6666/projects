@@ -12,6 +12,7 @@ struct interval intvl[] =
 
 struct interval out_intvl[4] = {0,0};
 
+
 int
 main(int argc, char ** argv)
 {
