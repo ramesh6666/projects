@@ -22,22 +22,11 @@ def main():
   print(df[0:5])
   total_rows = df.count
   print(total_rows)
-  print('HELLO \n')
   print('Mean = ', df["Data_value"].mean())
   print(df['Period'])
   print(df['Data_value'])
   df.plot(x="Period", y="Data_value")
   plt.show()
-
-#  dict = {}
-#  for row in csv_reader:
-#    year = row[1].split('.')
-#    y = year[0]
-#    val = row[2]
-#    dict[y] = val
-
-#  print(len(dict))
-#  print(dict)
 
 if __name__ == '__main__':
   main()
