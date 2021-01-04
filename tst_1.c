@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int x[] = {1, 0, 2, 0, 4, 0, 3, 0};
-
+/* swap */
 int
 main(int argc, char ** argv)
 {
