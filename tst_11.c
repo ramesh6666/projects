@@ -23,6 +23,7 @@ struct node* newnode(int key)
 // linked list by altering the right node
 // and making left node point to NULL
 */
+
 void flatten(struct node* root)
 {
   /*    // base condition- return if root is NULL
