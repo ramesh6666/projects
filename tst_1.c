@@ -3,8 +3,12 @@
 #include <stdlib.h>
 
 int x[] = {1, 0, 2, 0, 4, 0, 3, 0};
+<<<<<<< HEAD
 
 
+=======
+/* swap */
+>>>>>>> 54e8a4ddd36a971f592ce9e1bbef485a6b5e8595
 int
 main(int argc, char ** argv)
 {
