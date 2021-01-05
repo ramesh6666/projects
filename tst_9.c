@@ -2,6 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+/* insert value into tree using recursion */
+
 int
 insert(int *arr, int value, int start, int end, int totallen)
 {
