@@ -4,6 +4,7 @@
 
 
 /*  int array[] = {2, 9, 7, 5, 15, 13, 1};*/
+
 void heapify(int arr[], int n, int i)
 {
     int largest = i; // Initialize largest as root
