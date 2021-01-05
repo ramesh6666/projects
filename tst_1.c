@@ -13,6 +13,7 @@ main(int argc, char ** argv)
   for (i = 0; i<num_elem; i++) {
     if (x[i] != 0)
       continue;
+
     for (j = i-1; j >=0; j--) {
       if (x[j] != 0) {
 	x[j+1] = x[j];
